@@ -1,3 +1,5 @@
+package Sensores;
+
 import Exceptions.LeituraInvalidaException;
 
 import java.util.ArrayList;
@@ -37,6 +39,6 @@ public class Sensor {
 
     @Override
     public String toString() {
-        return "Sensor " + id;
+        return "Sensores.Sensor " + id;
     }
 }
